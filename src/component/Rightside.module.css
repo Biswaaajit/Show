@@ -1,0 +1,41 @@
+.cover {
+  background-color: rgba(255, 255, 255, 0.068);
+  padding: 20px 10px;
+  color: white;
+  width: 48%;
+}
+.show {
+  display: flex;
+  flex-flow: column wrap;
+  align-items: flex-start;
+}
+.info {
+  display: flex;
+  flex-flow: row wrap;
+  gap: 30px;
+}
+.info img {
+  width: 20rem;
+}
+.summary {
+  font-style: italic;
+  font-size: 22px;
+  margin-top: 30px;
+}
+.title {
+  font-size: 35px;
+  font-weight: 700;
+}
+.showInfo {
+  font-size: 28px;
+}
+.btn {
+  align-self: center;
+  font-size: 25px;
+  padding: 8px 20px;
+  background-color: blueviolet;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  margin-top: 20px;
+}

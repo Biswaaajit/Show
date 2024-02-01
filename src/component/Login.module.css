@@ -1,0 +1,44 @@
+.heading {
+  font-size: 58px;
+}
+.cover {
+  color: white;
+  display: flex;
+  flex-flow: column wrap;
+  align-items: center;
+}
+.form div {
+  display: flex;
+  padding: 10px 20px 20px 5px;
+  justify-content: space-between;
+  gap: 60px;
+}
+.form {
+  margin-top: 150px;
+  background-color: rgba(255, 255, 255, 0.151);
+  padding: 60px 80px 40px 20px;
+  display: flex;
+  flex-direction: column;
+}
+.form label {
+  font-size: 25px;
+}
+.form input {
+  width: 320px;
+  font-size: 22px;
+  padding: 5px 2px 5px 10px;
+}
+.form button {
+  width: fit-content;
+  padding: 10px 25px;
+  font-size: 22px;
+  background-color: rgb(28, 128, 228);
+  border: none;
+  color: white;
+  align-self: flex-end;
+  margin: 40px 20px 10px 0px;
+  border-radius: 10px;
+}
+.error {
+  box-shadow: 0px 0px 15px 1px red;
+}
